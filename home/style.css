@@ -1,0 +1,12 @@
+body {
+  background-color: #51F792;
+}
+
+th, td {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color:silver;
+    font-size:x-large;
+    text-align: center;
+  }
+  

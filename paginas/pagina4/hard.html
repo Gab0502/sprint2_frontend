@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../home/style.css">
+    <title>Hardware</title>
+</head>
+<body><br><br>
+    <input type="button" class="cor" onclick="trocar('#008000')" />
+    <input type="button" class="cor" onclick="trocar('#51F792')" />
+    <script src="/home/mode.js"></script>
+    <table align="center">
+        <tr>
+            <td>
+                <a href="../../home/index.html">&nbsp Home &nbsp </a>
+            </td>
+            <td>
+                <a href="../pagina2/sobre.html">&nbsp Sobre nós &nbsp </a>
+            </td>
+            <td>
+                <a href="../pagina3/software.html">&nbsp Software &nbsp</a>
+            </td>
+            <td>
+                <a href="../pagina4/hard.html">&nbsp Hardware &nbsp</a>
+            </td>
+            <td>
+                <a href="../pagina5/contato.html">&nbsp Contato &nbsp</a>
+            </td>
+            <td>
+                <a href="../pagina6/login.html">&nbsp Login &nbsp</a>
+            </td>
+        </tr>
+    </table>
+    <center><h1>Hardware</h1></center>
+    <center>
+        Sensor de cálculo de fluxo de água baseado em RPM
+
+--Descrição:
+O sensor é baseado na utilização de um led infravermelho e um sensor infravermelho para medir quantas as rotações por minuto são realizadas pela roda instalada entre o led e o sensor de luz.<br>
+O programa leva em consideração a quantidade de aros que a roda situada entre os componentes possui para calcular a rotação, toda vez que que fotoresistor recebe um sinal de luz ele adicionará o valor de 1 para uma variável, caso um aro esteja na frente do sensor ele não receberá o sinal e a variável não mudará
+assim podemos calcular uma rotação dividindo a quantidade de sinais recebidos pelo sensor pelo número de aros que a roda possui, tal valor podendo variar dependendo do tamanho da peça, e utilizando a fórmula rotações dividido por 60 podemos determinar quantas rotações serão realizadas por minuto, assim podendo
+medir a velocidade do fluxo de água de uma certa área, mostrando caso os valores estejam normais, abaixo do normal ou acima do normal.<br><br>
+
+--REQUISITOS DE HARDWARE:
+<br><br>
+1x Placa arduino UNO<br>
+1x Fotoresistor LDR<br>
+1x LED<br>
+2x Resistores 220 kOhm<br><br>
+<img src="../../imagens/sensora.jpg" width="40%"><br>
+    </center>
+</body>
+</html>

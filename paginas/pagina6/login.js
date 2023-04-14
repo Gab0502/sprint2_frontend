@@ -7,7 +7,7 @@ if (user == "adm") {
 }
 else if (user =="morador"){
     document.write ("Seja bem vindo á página de morador")
-    window.location.href = "/paginas/pagina2/pagina2.html"
+    window.location.href = "/paginas/morador/morador.html"
 }
 else{
     document.write ("Login ou senha errados")
