@@ -1,5 +1,15 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.header-page{
+  background-color:#D3D3D3; 
+  color: #ffdead; 
+  padding: 10px; 
+}
 body {
-  background-color: #51F792;
+  background-color: #87CEFA;
 }
 
 th, td {
@@ -8,5 +18,9 @@ th, td {
     background-color:silver;
     font-size:x-large;
     text-align: center;
-  }
+}
+.foto-redonda1{
+  border-radius: 60%;
+}
+
   

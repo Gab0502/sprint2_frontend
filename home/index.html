@@ -5,57 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../home/style.css">
-    <title>Home</title>
+    <link rel="stylesheet" href="../home/menu.css">
+    <link rel="stylesheet" href="../home/carrosel.css">
+    <title>Enchentes.net</title> 
 
 </head>
-<body><br><br>
+<body>
+<header class="header-page" style="vertical-align: middle;">
+    <h1 class="imgtittle"><a href="/home/index.html"><img class="foto-redonda1"  src="/imagens/fiap.png" width="50" height="50"></a></h1>
     <!--Dark mode e light mode-->
-    <input type="button" class="cor" onclick="trocar('#008000')" />
-    <input type="button" class="cor" onclick="trocar('#51F792')" />
-    <script src="mode.js"></script>
-
-    <table align="center">
-        <tr>
-            <td>
-                <a href="../home/index.html">&nbsp Home &nbsp </a>
-            </td>
-            <td>
-                <a href="../paginas/pagina2/sobre.html">&nbsp Sobre nós &nbsp </a>
-            </td>
-            <td>
+    <nav class="menu">
+        <li><img src = "/imagens/menu.png" width="50" height="50">
+            <ul><a href="../home/index.html">&nbsp Home &nbsp
+                <a href="../paginas/pagina2/sobre.html">&nbsp Sobre &nbsp nós &nbsp </a>
                 <a href="../paginas/pagina3/software.html">&nbsp Software &nbsp</a>
-            </td>
-            <td>
                 <a href="../paginas/pagina4/hard.html">&nbsp Hardware &nbsp</a>
-            </td>
-            <td>
                 <a href="../paginas/pagina5/contato.html">&nbsp Contato &nbsp</a>
-            </td>
-            <td>
                 <a href="../paginas/pagina6/login.html">&nbsp Login &nbsp</a>
-            </td>
-        </tr>
-    </table> 
-    <center><h1>As Enchentes</h1></center>
-    <p>
-        <center>
-            As enchentes vem cada dia mais se tornando uma questão preocupante para todos, causando riscos diversos, 
-            desde deslizamentos, perdas de bens materiais até doenças e mortes.
-            <br>Na cidade de São Paulo, por conta da grande população a quantidade de dejetos produzidos, principalmente o lixo urbano,
-            quando não descartados da forma correta, acabam na vias urbanas da cidade, ocasionando obstrução na passagem das águas da chuva, e como uma das consequencias, as enchentes.<br><br>
-        <img src="../imagens/enchente1.jpg" width="40%"> 
-        </center>
-    </p>
-   
+            </ul>
+        </li>
+    </nav>
+    <a class="loginbtn" href="../paginas/pagina6/login.html">&nbsp Login &nbsp</a>
+</header>
+<p><br><br></p>
+<div class="slider">
+    <div class="slides">
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
 
-    
+        <div class="slide first">
+            <img src="/imagens/fiap.png">
+        </div>
+        <div class="slide">
+            <img src="/imagens/enchente1.jpg">
+        </div>
+        <div class="slide">
+            <img src="/imagens/menu.png">
+        </div>
+
+        <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+        </div>  
+    </div>
+    <div class="manual-navigation">
+        <label for="radio1" class="manual-btn">        </label>
+        <label for="radio2" class="manual-btn">        </label>
+        <label for="radio3" class="manual-btn">        </label>
+        <label for="radio4" class="manual-btn">        </label>
+    </div>  
 
 
-    
+</div>
 
-    
 
-    
-
+<script src="mode.js"></script>
 </body>
 </html>
