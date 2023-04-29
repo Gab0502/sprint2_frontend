@@ -9,6 +9,8 @@ nav{
     margin-left: 10px;
 }
 .menu {
+    position: relative;
+    z-index: 50;
     list-style: none;
     border: 20px #c0c0c0;
     float: left;

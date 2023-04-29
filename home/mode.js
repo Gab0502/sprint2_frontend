@@ -1,16 +1,17 @@
-const box = document.querySelector(".container");
-const imagens = document.querySelectorAll(".container img");
+let count = 1;
+document.getElementById("radio1").checked = true;
 
-let contador = 0;
+setInterval(function(){
+  nextImage();
 
-function slider() {
-  contador++;
+},4000)
 
-  if (contador > imagens.length - 1) {
-    contador = 0;
+
+function nextImage(){
+  count++;
+  if(count>4){
+    count = 1;
+
   }
-
-  box.style.transform = `translateX(${-contador * 1250}px)`;
+  document.getElementById("radio"+count).checked = true;
 }
-
-setInterval(slider, 2000);
