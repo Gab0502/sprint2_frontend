@@ -1,14 +1,16 @@
-let user = prompt ("Digite sua usuário: ");
-let senha = prompt ("Digite seu senha");
+let username = document.getElementById("username").value;
+let senha = document.getElementById("senha").value;
 
-if (user == "adm") {
-    document.write ("Seja bem vindo á página de Administrador")
-    window.location.href = "/paginas/paginaadm/paginaadm.html"
-}
-else if (user =="morador"){
-    document.write ("Seja bem vindo á página de morador")
-    window.location.href = "/paginas/morador/morador.html"
-}
-else{
-    document.write ("Login ou senha errados")
+function login(){
+    if (username == "adm") {
+        document.write ("Seja bem vindo á página de Administrador")
+        window.location.href = "/paginas/paginaadm/paginaadm.html"
+    }
+    else if (username =="morador"){
+        document.write ("Seja bem vindo á página de morador")
+        window.location.href = "/paginas/morador/morador.html"
+    }
+    else{
+        alert("login ou senha incorretos")
+    }
 }
