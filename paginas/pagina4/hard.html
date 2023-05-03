@@ -27,24 +27,12 @@
     </nav>
     <a class="loginbtn" href="/paginas/pagina6/login.html">&nbsp Login &nbsp</a>
 </header>
-    <center><h1>Hardware</h1></center>
-    <center>
-        Sensor de cálculo de fluxo de água baseado em RPM
-
---Descrição:
-O sensor é baseado na utilização de um led infravermelho e um sensor infravermelho para medir quantas as rotações por minuto são realizadas pela roda instalada entre o led e o sensor de luz.<br>
-O programa leva em consideração a quantidade de aros que a roda situada entre os componentes possui para calcular a rotação, toda vez que que fotoresistor recebe um sinal de luz ele adicionará o valor de 1 para uma variável, caso um aro esteja na frente do sensor ele não receberá o sinal e a variável não mudará
-assim podemos calcular uma rotação dividindo a quantidade de sinais recebidos pelo sensor pelo número de aros que a roda possui, tal valor podendo variar dependendo do tamanho da peça, e utilizando a fórmula rotações dividido por 60 podemos determinar quantas rotações serão realizadas por minuto, assim podendo
-medir a velocidade do fluxo de água de uma certa área, mostrando caso os valores estejam normais, abaixo do normal ou acima do normal.<br><br>
-
---REQUISITOS DE HARDWARE:
-<br><br>
-1x Placa arduino UNO<br>
-1x Fotoresistor LDR<br>
-1x LED<br>
-2x Resistores 220 kOhm<br><br>
-<img src="../../imagens/sensora.jpg" width="40%"><br>
-    </center>
-<footer>@2023 direitos reservados</footer>
-</body>
-</html>
+<div class="containeralt">
+    <h1>Hardware</h1>
+    <span class="linhazinha"></span>
+    <h2>Nossos sistemas contam com 2 sensores, um com o calculo do fluxo da agua e um com o sensor para o nivel da agua que trabalham em conjunto para manter o site informado sobre a situação do esgoto de suas ruas</h2>
+    <p><br><br></p>
+    <h1>Sensor RPM</h1>
+    <span class="linhazinha" class="imagem"></span>
+    <img src="/imagens/sensorrpm.png" class="image" width="40%">
+</div>
