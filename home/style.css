@@ -5,7 +5,6 @@
 }
 .header-page{
   background-color:#D3D3D3; 
-  color: #ffdead; 
   padding: 10px; 
 }
 
@@ -20,11 +19,12 @@ h1,h2,h3,h4{
 
 
 th, td {
-    border: 2px solid black;
-    border-radius: 10px;
-    background-color:silver;
-    font-size:x-large;
-    text-align: center;
+  padding: 10px 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #FFF;
+  border: 2px solid rgb(51, 50, 51);
+  background-color: #275c90;
+  border-radius: 70px;
 }
 .foto-redonda1{
   border-radius: 60%;
@@ -48,8 +48,6 @@ th, td {
   justify-content: center;
   align-items: center;
 }
- 
-
 .box{
   width: 20%;
   height: 250px;
