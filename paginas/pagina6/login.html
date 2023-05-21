@@ -21,10 +21,11 @@
                 <a href="/paginas/pagina3/software.html">&nbsp Software &nbsp</a>
                 <a href="/paginas/pagina4/hard.html">&nbsp Hardware &nbsp</a>
                 <a href="/paginas/pagina5/contato.html">&nbsp Contato &nbsp</a>
-                <a href="/paginas/pagina6/login.html">&nbsp Login &nbsp</a>
             </ul>
         </li>
     </nav>
+    <input type="button" value="Claro" class="darkmode" name="claro" onclick="dkm('#A7C7E7')" />
+    <input type="button" value="Escuro" class="darkmode" onclick="dkm('#204e7c')" />
     <a class="loginbtn" href="/paginas/pagina6/login.html">&nbsp Login &nbsp</a>
 </header>
 <p><br></p>
@@ -41,8 +42,13 @@
     <br>
         
     <input type="button" value="Enviar" class="btn" onclick="login()">
-    <script src="login.js"></script>
+    <script src="/home/mode.js"></script>
 </div>
-<footer>@2023 direitos reservados</footer>
+<footer>
+    <script>
+    let data = new Date()
+    document.write(data.toLocaleDateString());
+</script>@2023 direitos reservados</footer>
+</body>
 </body>
 </html>

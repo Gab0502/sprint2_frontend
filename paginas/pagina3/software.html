@@ -21,10 +21,11 @@
                 <a href="/paginas/pagina3/software.html">&nbsp Software &nbsp</a>
                 <a href="/paginas/pagina4/hard.html">&nbsp Hardware &nbsp</a>
                 <a href="/paginas/pagina5/contato.html">&nbsp Contato &nbsp</a>
-                <a href="/paginas/pagina6/login.html">&nbsp Login &nbsp</a>
             </ul>
         </li>
     </nav>
+    <input type="button" value="Claro" class="darkmode" name="claro" onclick="dkm('#A7C7E7')" />
+    <input type="button" value="Escuro" class="darkmode" onclick="dkm('#204e7c')" />
     <a class="loginbtn" href="/paginas/pagina6/login.html">&nbsp Login &nbsp</a>
 </header>
 <p><br></p>
@@ -40,6 +41,12 @@
         <h3>Conforme mostrado na imagem ilustrativa acima, vemos como seria uma tela para administradores e usuários, mostrando em pontos como está a situação dos sensores dentro do esgoto, sendo verde onde o fluxo e altura de água em níveis padrões, amarelo para uma situação pior, onde existe o risco de alagamentos e vermelho quando existe uma enchente iminente</h3>
         <h3> a diferença entre o aplicativo de administradores e de usuários são os dados exibidos, enquanto o usuário pode apenas saber da situação, o administrador terá mais detalhes sobre valores do fluxo e nível da água e poderá agir antecipadamente caso perceba possíveis anormalidades nos valores</h3>
 </div>
-<footer>@2023 direitos reservados</footer>
+<footer>
+    <script>
+    let data = new Date()
+    document.write(data.toLocaleDateString());
+</script>@2023 direitos reservados</footer>
+<script src="/home/mode.js"></script>
+</body>
 </body>
 </html>

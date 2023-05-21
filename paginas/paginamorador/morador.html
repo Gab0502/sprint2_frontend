@@ -21,25 +21,34 @@
                 <a href="/paginas/pagina3/software.html">&nbsp Software &nbsp</a>
                 <a href="/paginas/pagina4/hard.html">&nbsp Hardware &nbsp</a>
                 <a href="/paginas/pagina5/contato.html">&nbsp Contato &nbsp</a>
-                <a href="/paginas/pagina6/login.html">&nbsp Login &nbsp</a>
             </ul>
         </li>
     </nav>
+    <input type="button" value="Claro" class="darkmode" name="claro" onclick="dkm('#A7C7E7')" />
+    <input type="button" value="Escuro" class="darkmode" onclick="dkm('#204e7c')" />
     <a class="loginbtn" href="/paginas/pagina6/login.html">&nbsp Login &nbsp</a>
 </header>
 <body><br><br>
-<h1>Ola {morador}</h1>
+<h1>Ola morador</h1>
 <span class="linhazinha"></span>
 <br>
+<h2>Atualmente trabalhamos apenas com as ruas "Rua Eng. Silva Braga", "Rua Marques de Lages" e "Rua dos Operarios"</h2>
 <div class="containeralt">   
-    <h2>Olá {morador}, digite abaixo o seu endereço:</h2>
+    <h2>Olá morador, digite abaixo o seu endereço:</h2>
     <br>
-<form>
-   
-    <input type="text" id="">
-    <input type="submit" id="" value="Enviar"
-
-</form>
-</div>   
+    <form>
+        <input type="text" id="rua">
+        <input type="button" onclick="verificarua()" value="Enviar">
+    </form>
+    <br>
+    <h1 id="ruaoutput" style="background-color: #D3D3D3; border-radius: 15px;"></h1>
+</div>  
+<script src="/home/mode.js"></script> 
+<footer>
+    <script>
+    let data = new Date()
+    document.write(data.toLocaleDateString());
+</script>@2023 direitos reservados</footer>
+</body>
 </body> 
 </html>
