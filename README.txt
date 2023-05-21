@@ -1,3 +1,15 @@
+Link do projeto:
+https://github.com/Gab0502/sprint2_frontend
+
+Grupo DeskTOPS:
+Enricco Rossi de Souza Carvalho Miranda RM: 551717
+Erick Carvalho Pereira RM: 550772
+Felipe de Vinicius Quinalha RM: 98957
+Gabriel Marquez Trevisan RM: 99227
+Silvia Hamazaki Kavabata RM: 97650
+
+
+
 *------------------------------------------------------------------*
 Descrição
 *------------------------------------------------------------------*
